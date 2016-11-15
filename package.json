@@ -1,0 +1,28 @@
+{
+  "name": "laravel-elixir-itod",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagi4u/laravel-elixir-itod.git"
+  },
+  "keywords": [
+    "base64"
+  ],
+  "author": "MyoungHak Jeong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hagi4u/laravel-elixir-itod/issues"
+  },
+  "homepage": "https://github.com/hagi4u/laravel-elixir-itod#readme",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-image-data-uri": "^1.2.2",
+    "image-size": "^0.5.0",
+    "underscore": "^1.8.3"
+  }
+}
