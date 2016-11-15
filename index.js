@@ -12,7 +12,7 @@ const Config = elixir.config;
 elixir.extend('itod', function(src, output, options) {
     'use strict';
 
-    const paths = new Elixir.GulpPaths()
+    const paths = new elixir.GulpPaths()
         .src(src || Config.get('assetsPath') + '/images/**/*')
         .output(output || Config.get('publicPath') + '/sass/');
 
